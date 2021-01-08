@@ -38,12 +38,22 @@ document.querySelector('#sinscrire').addEventListener('click', (e) => {
 })
 
 $('#seConnecterJ').click((e) => {
+    
     e.preventDefault();
     if (document.querySelector('#login').value != "" && document.querySelector('#password').value != "") {
         location.href = 'profilJury.html'
     }
+    else if(document.querySelector('#login').value != ""){
+        document.querySelector('#password').classList.add('invalid');
+        document.querySelector('#login').classList.remove('invalid');
+    }
+    else if(document.querySelector('#password').value != ""){
+        document.querySelector('#login').classList.add('invalid');
+        document.querySelector('#password').classList.remove('invalid');
+    }
     else {
-        e.preventDefault();
+        document.querySelector('#login').classList.add('invalid');
+        document.querySelector('#password').classList.add('invalid');
     }
 })
 
@@ -52,7 +62,16 @@ $('#seConnecterA').click((e) => {
     if (document.querySelector('#login').value != "" && document.querySelector('#password').value != "") {
         location.href = 'profilAuteurs.html'
     }
+    else if(document.querySelector('#login').value != ""){
+        document.querySelector('#password').classList.add('invalid');
+        document.querySelector('#login').classList.remove('invalid');
+    }
+    else if(document.querySelector('#password').value != ""){
+        document.querySelector('#login').classList.add('invalid');
+        document.querySelector('#password').classList.remove('invalid');
+    }
     else {
-        e.preventDefault();
+        document.querySelector('#login').classList.add('invalid');
+        document.querySelector('#password').classList.add('invalid');
     }
 })
