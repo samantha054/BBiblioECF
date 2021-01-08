@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<livre>
+<titre>
+Titre de l'oeuvre
+</titre>
+
+
+
+<auteur>
+Informations auteur
+</auteur>
+
+<editeur>
+L'éditeur
+</editeur>
+
+<description>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque commodi dolor eos vel hic. Vel nemo nobis numquam quaerat officia tempore rerum nihil nam rem veritatis adipisci, omnis eum non temporibus corrupti voluptatum reiciendis?
+</description>
+
+</livre>
+<pages>
+252
+</pages>
+
+<couverture src="./images/titreDeLOeuvre.jpg"/>
+<prix> 11 € </prix>
+<parution> 24/12/2019 </parution>
+
+<commentaire>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt vitae quo ipsam perspiciatis, minus molestias!
+</commentaire>
+
+
