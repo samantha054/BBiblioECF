@@ -1,0 +1,56 @@
+/***************HEADER**************/
+header h1, header img{
+    align-self: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 65px;
+}
+header{
+  background: linear-gradient(14deg, rgba(2,0,36,1) 0%, rgba(2,2,41,1) 54%, rgba(185, 158, 2, 0.616) 100%);
+  color: rgb(191,169,89);
+}
+/* BODY **************************/
+
+body{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.486) 0%, rgba(185, 157, 2, 0.418)50%, rgba(185, 157, 2, 0.418) 100%);
+}
+
+/***************NAVBAR *******************/
+.navbar{
+    background-color: rgba(191,169,89,0.84);
+}
+.nav-link{
+    color :rgb(107, 93, 42);
+    padding-left: 4em !important;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly !important;
+}
+
+
+/* Titre de l'oeuvre ********************/
+
+.attrN{
+    font-family: 'Inter', sans-serif;
+    color: rgb(138, 120, 39);
+}
+
+.validNote{
+    background-color: rgba(124, 108, 14, 0.616) !important; 
+    border-color: rgba(185, 158, 2, 0.616) !important;
+}
+
+.invalid{
+    border: solid 2px red !important;
+}
+
+
+/****************FOOTER ************/
+.footerR{
+    display: flex !important;
+    justify-content: space-around !important;
+
+}
+

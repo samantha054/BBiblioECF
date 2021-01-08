@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+<title>BBiblio</title>
+</head>
+
+<body>
+    <!-- HEADER ----------------------------------------->
+    <header class="container-fluid">
+        <div class="row">
+            <img src="images/logo.png" alt="logo" class="col-md-2">
+            <h1 class="col-md-8 title">Le Festival du livre</h1>
+        </div>
+    </header>
+
+    <!-- NAVBAR ------------------------------------------------->
+    <!-- <div class="container-fluid navigation"> -->
+    <nav class="navbar navigation">
+
+        <ul class="nav nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">Oeuvres</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="oeuvres.html">Roman français</a>
+                    <a class="dropdown-item" href="oeuvres.html">Roman étrangers</a>
+                    <a class="dropdown-item" href="oeuvres.html">Documentaires</a>
+                    <a class="dropdown-item" href="oeuvres.html">Biographie</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="oeuvres.html">Toutes les oeuvres</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="palmares.html">Palmarès</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profilJury.html">Espace Jury</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profilAuteurs.html">Espace Auteurs/Editeurs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="leConcours.html">Le concours</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link connexion" href="connexion.html"><i class="fas fa-user"></i> Se connecter/Sinscrire</a> 
+            </li>
+        </ul>
+    
+    </nav>
+    <!------------------------- MAIN ----------------------------------->
+    <main>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card " style="width: 20rem;">
+                        <h4 class="card-title text-center p-2">Dawn of X Vol 8</h4>
+                       <img class="card-img-sm" src="images/Dawn-of-X-Vol-08.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Résumé</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eveniet cumque
+                                consectetur animi quae delectus. Modi, sit, illo similique non repellat nesciunt
+                                laboriosam eveniet esse quod quidem eius beatae cupiditate.
+                            </p>
+                            <div class="  d-flex justify-content-center">
+                                <button class="btn btn-primary btn-lg download" type="button">Télecharger PDF<i
+                                        class="fas fa-download p-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>Moyenne actuelle</h2>
+                    <table class="table">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th>Critère de notation</th>
+                            <th class="text-center">Moyenne</th> 
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th>Style</th>
+                            <td class="text-center">../10</td>
+                          </tr>
+                          <tr>
+                            <th >Illustrations</th>
+                            <td class="text-center">../10</td>
+                          </tr>
+                          <tr>
+                            <th>Mise en page</th>
+                            <td class="text-center">../10</td>
+                          </tr>
+                          <tr>
+                            <th>Emotion</th>
+                            <td class="text-center">../10</td>
+                          </tr>
+                          <tr class="table-dark">
+                            <th>Moyenne générale</th>
+                            <td class="text-center">../10</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    
+                        <button class="btn btn-success btn-lg mt-5 retourNotes">Retour page notes</button>
+
+                    </div>
+                </div>
+
+            </div>
+    </main>
+    <hr>
+    <!---------------------- FOOTER ----------------------------------->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 mb-4 footerR">
+                    <i class="fab fa-instagram fa-4x" style="color: palevioletred;"></i>
+                    <i class="fab fa-facebook fa-4x" style="color: blue;"></i>
+                    <i class="fab fa-twitter-square fa-4x" style="color: rgb(0, 162, 255);"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 footerA text-center">
+                    <p>253 Boulevard Albert-Fred <br> 06000 Nice</p>
+                    <p>+33 4 93 54 25 36</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/recapNotes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
