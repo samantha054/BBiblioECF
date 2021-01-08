@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/Aristo/Aristo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+
+    <title>Profil Jury</title>
+</head>
+
+<body>
+    <!-- HEADER ----------------------------------------->
+    <header class="container-fluid">
+        <div class="row">
+            <img src="images/logo.png" alt="logo" class="col-md-2">
+            <h1 class="col-md-8 title">Le Festival du livre</h1>
+        </div>
+    </header>
+
+    <!-- NAVBAR ------------------------------------------------->
+    <nav class="navbar navigation">
+
+        <ul class="nav nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">Oeuvres</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="oeuvres.html">Roman français</a>
+                    <a class="dropdown-item" href="oeuvres.html">Roman étrangers</a>
+                    <a class="dropdown-item" href="oeuvres.html">Documentaires</a>
+                    <a class="dropdown-item" href="oeuvres.html">Biographie</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="oeuvres.html">Toutes les oeuvres</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="palmares.html">Palmarès</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profilJury.html">Espace Jury</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profilAuteurs.html">Espace Auteurs/Editeurs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="leConcours.html">Le concours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link connexion" href="connexion.html"><i class="fas fa-user"></i> Se
+                    connecter/Sinscrire</a>
+            </li>
+        </ul>
+
+    </nav>
+    <!------------------------- MAIN ----------------------------------->
+    <main>
+        <h2 class="text-center mt-2">Espace Auteur</h2>
+        <h3 class="text-center mt-3">Veuillez remplir votre profil</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <input type="text" name="login" id="loginC" class="input mt-5" placeholder="Identifiant"
+                        autocomplete="off" required>
+                    <input type="text" id="datepicker" class="mt-3" placeholder="Date de naissance" autocomplete="off">
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control mt-3" id="adress" placeholder="Adresse postale">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control mt-3" id="postal" placeholder="Code postal">
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control mt-3" id="ville" placeholder="Ville">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center mt-4">
+                    <label for="passwordC">Modifiez votre mot de passe</label><br>
+                    <input type="password" name="password" id="passwordC" class="input-lg mt-1"
+                        placeholder="Mot de Passe" autocomplete="off" required>
+                    <br><span class="erreur"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <input type="submit" class="btn btn-success mt-3" value="Valider" id="valider">
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <hr>
+    <!---------------------- FOOTER ----------------------------------->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 mb-4 footerR">
+                    <i class="fab fa-instagram fa-4x" style="color: palevioletred;"></i>
+                    <i class="fab fa-facebook fa-4x" style="color: blue;"></i>
+                    <i class="fab fa-twitter-square fa-4x" style="color: rgb(0, 162, 255);"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 footerA text-center">
+                    <p>253 Boulevard Albert-Fred <br> 06000 Nice</p>
+                    <p>+33 4 93 54 25 36</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/profils.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
